@@ -25,7 +25,7 @@ export default function LoginPage() {
 
   useEffect(() => {
     if (CheckToken()) {
-      history.push("/dashboard");
+      history.push("/dishboard");
     }
   }, []);
 
